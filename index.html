@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Windfall Spending App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Windfall Spending App</h1>
+    <div id="input-container">
+      <label for="windfall-amount">Enter your windfall amount ($50 - $5,000,000):</label>
+      <input type="number" id="windfall-amount" min="50" max="5000000">
+      <button id="submit-amount">Submit</button>
+    </div>
+    <div id="suggestions-container" style="display: none;">
+      <h2>Suggested Spending Options</h2>
+      <ul id="suggestions-list"></ul>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
