@@ -33,4 +33,4 @@ submitButton.addEventListener("click", () => {
   suggestionsList.innerHTML = '';
   spendingOptions.forEach(option => {
     const listItem = document.createElement("li");
-      listItem.textContent = `${option.name}: $${option.amount}`})}
+      listItem.textContent = `${option.name}: $${option.amount}`})})
